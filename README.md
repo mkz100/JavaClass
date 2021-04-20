@@ -1,4 +1,4 @@
-# Java Class
+# Java Class 
 
 ## My Teaching Philosophy
 
