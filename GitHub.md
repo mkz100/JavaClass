@@ -67,9 +67,47 @@ Using the SSH protocol, you can connect and authenticate to remote servers and s
 
 https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
+```
+ssh-keygen -t ed25519 -C "kai.zhang@gmail.com"
+
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/Users/kai/.ssh/id_ed25519):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /Users/kai/.ssh/id_ed25519.
+Your public key has been saved in /Users/kai/.ssh/id_ed25519.pub.
+The key fingerprint is:
+SHA256:jUd3OvKAYMvpIOH4jJ6n3/AaJSRTtem59hkl6EfTrN4 kai.zhang@gmail.com
+The key's randomart image is:
++--[ED25519 256]--+
+|   ...           |
+|  .   o          |
+| o.. oo   . . .  |
+| o+..oo+o= . o   |
+|. o..=++S+= o    |
+| + .+oo =. + .   |
+|. oo +.+    .    |
+|. ..* + +        |
+| ++o.o + E       |
++----[SHA256]-----+
+
+cd ~/.ssh
+
+ls -tl
+-rw-r--r-- 1 kai staff  101 Apr 21 11:00 id_ed25519.pub
+-rw------- 1 kai staff  411 Apr 21 11:00 id_ed25519
+
+cat id_ed25519.pub
+
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILqKbXREGEGhueLFY5WCsKWjCiWHx7rjy7uOhV1XTYR0 kai.zhang@gmail.com
+
+```
+The private (id_ed25519) and public (id_ed25519.pub) key pair is created.
+
 ### Adding a new SSH key to your GitHub account
 
 https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account
+
 
 
 
