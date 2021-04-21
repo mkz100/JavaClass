@@ -17,6 +17,9 @@
 ## VCS history - Git vs SVN vs Clearcase
 https://trends.google.com/trends/explore?date=2004-03-19%202020-04-19&geo=US&q=%2Fm%2F05vqwg,%2Fm%2F012ct9,%2Fm%2F01ybz2
 
-![Git-SVN-ClearCase](Git-SVN-Clearcase.jpg)
+![Git-SVN-ClearCase](./resources/Git-SVN-Clearcase.jpg)
 
-## 
+## Create a GitHub Account
+
+1. got to https://github.com/ click sign up
+2. 

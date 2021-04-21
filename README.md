@@ -6,7 +6,7 @@
 子曰：“知之者不如好之者，好之者不如乐之者。”
 
 ### Words from Steve Jobs
-![Find what you love](./SteveJobs.jpeg)
+![Find what you love](./resources/SteveJobs.jpeg)
 
 **You've got to find what you love (2005 Commencement at Stanford Univsersity)** 
 -- Stay Hungry, Stay Foolish
