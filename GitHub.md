@@ -24,5 +24,5 @@ https://trends.google.com/trends/explore?date=2004-03-19%202020-04-19&geo=US&q=%
 1. got to https://github.com/ click sign up
 2. enter username, email, password. 
 
-## Create a Git Repository
+## Create a Git Repository 
 
