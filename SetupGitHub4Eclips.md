@@ -19,14 +19,11 @@
 Note: Make sure check the `"Store in Secure Store"` to save your credentials to the local secure store to avoid entering credentials every time pushing date to Github. If encounters this error `"Failed to write credentials for 'your git repo URL' to secure store No password provided."`, please go `Preferences->General->Security->Secure Storage` uncheck the highlighted item: \
    <img src="resources/securestorage.png" width="600"/>
 
-## Option2 - Using SSH protocol (recommended)
-This option is simple and more secure.
+## Option2 - Using SSH protocol (Recommended)
+This option is simpler and more secure.
 
-Revisit [GitHub.md](GitHub.md) for 
-1. Generate SSH key pair
-2. Adding a new SSH key to your GitHub account
-
-Then,
+1. Generate SSH key pair - Revisit [GitHub.md](GitHub.md)
+2. Adding a new SSH key to your GitHub account - Revisit [GitHub.md](GitHub.md)
 3. Copy git ssh endpoint from Github \
    <img src="resources/git-ssh1.jpg" width="400"/>
 4. Paste ssh endpoint in Eclipse Git clone window \
