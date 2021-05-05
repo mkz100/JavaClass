@@ -14,6 +14,9 @@
 * Git is the VCS used to use GitHub, GitLab, AliyunCode etc.
 * Now Github is part of your credentials - a measure of your coding abilities and skills.
 
+### Aliyun Code Control System:
+https://code.aliyun.com/
+
 ## VCS history - Git vs SVN vs Clearcase
 https://trends.google.com/trends/explore?date=2004-03-19%202020-04-19&geo=US&q=%2Fm%2F05vqwg,%2Fm%2F012ct9,%2Fm%2F01ybz2
 
@@ -23,6 +26,8 @@ https://trends.google.com/trends/explore?date=2004-03-19%202020-04-19&geo=US&q=%
 
 1. got to https://github.com/ click sign up
 2. enter username, email, password. 
+3. Click `create account`. An verification email is sent.
+4. verify email address via the link sent in email.
 
 ## Create a Git Repository 
 
@@ -67,6 +72,43 @@ Using the SSH protocol, you can connect and authenticate to remote servers and s
 
 https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
+```
+ssh-keygen -t ed25519 -C "kai.zhang@gmail.com"
+
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/Users/kai/.ssh/id_ed25519):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /Users/kai/.ssh/id_ed25519.
+Your public key has been saved in /Users/kai/.ssh/id_ed25519.pub.
+The key fingerprint is:
+SHA256:jUd3OvKAYMvpIOH4jJ6n3/AaJSRTtem59hkl6EfTrN4 kai.zhang@gmail.com
+The key's randomart image is:
++--[ED25519 256]--+
+|   ...           |
+|  .   o          |
+| o.. oo   . . .  |
+| o+..oo+o= . o   |
+|. o..=++S+= o    |
+| + .+oo =. + .   |
+|. oo +.+    .    |
+|. ..* + +        |
+| ++o.o + E       |
++----[SHA256]-----+
+
+cd ~/.ssh
+
+ls -tl
+-rw-r--r-- 1 kai staff  101 Apr 21 11:00 id_ed25519.pub
+-rw------- 1 kai staff  411 Apr 21 11:00 id_ed25519
+
+cat id_ed25519.pub
+
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILqKbXREGEGhueLFY5WCsKWjCiWHx7rjy7uOhV1XTYR0 kai.zhang@gmail.com
+
+```
+The private (id_ed25519) and public (id_ed25519.pub) key pair is created.
+
 ### Adding a new SSH key to your GitHub account
 
 https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account
@@ -84,6 +126,7 @@ https://www.bilibili.com/video/BV1eW411e7xS/?spm_id_from=333.788.recommend_more_
 
 Git + GitHub 10分钟完全入门
 https://www.bilibili.com/video/BV1KD4y1S7FL/?spm_id_from=333.788.recommend_more_video.2
+
 
 
 
