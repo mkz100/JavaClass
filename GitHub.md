@@ -118,7 +118,7 @@ https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-
 银行密码系统安全吗？质数（素数）到底有啥用？李永乐老师11分钟讲RSA加密算法（2018最新）
 https://www.bilibili.com/video/BV1Ts411H7u9?from=search&seid=15843569033862803906
 
-什么是公钥私钥
+什么是公钥私钥加密验证原理
 https://www.bilibili.com/video/BV11t41117Fm?from=search&seid=15161199292547360730
 
 区块链的基石：非对称加密技术简介
@@ -127,6 +127,16 @@ https://www.bilibili.com/video/BV1eW411e7xS/?spm_id_from=333.788.recommend_more_
 Git + GitHub 10分钟完全入门
 https://www.bilibili.com/video/BV1KD4y1S7FL/?spm_id_from=333.788.recommend_more_video.2
 
+### Common Problems
 
+* Failed to push -
+```
+error: failed to push some refs to 'https://github.com/mkz100/JavaClass.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+```
 
-
+* Failed to authenticate - 
+  * SSH -- check the private / public key pair setup
+  * HTTPS -- check the configuration
