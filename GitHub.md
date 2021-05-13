@@ -113,7 +113,7 @@ The private (id_ed25519) and public (id_ed25519.pub) key pair is created.
 
 https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account
 
-### references
+### References:
 
 银行密码系统安全吗？质数（素数）到底有啥用？李永乐老师11分钟讲RSA加密算法（2018最新）
 https://www.bilibili.com/video/BV1Ts411H7u9?from=search&seid=15843569033862803906
