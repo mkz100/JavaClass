@@ -184,5 +184,5 @@ Delete your breakpoint and add a breakpoint for class loading. Debug your progra
 ## 4. Links and Literature
 ### 4.1. Debugging Links
 
-Eclipse的Debug调试技巧大全(精华版) https://blog.csdn.net/swebin/article/details/70598978
-Eclipse之debug调试 https://www.bilibili.com/video/BV1As411G71J/
+1. Eclipse的Debug调试技巧大全(精华版) https://blog.csdn.net/swebin/article/details/70598978
+2. Eclipse之debug调试 https://www.bilibili.com/video/BV1As411G71J/
